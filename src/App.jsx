@@ -5,7 +5,7 @@ import Pet from "./Pet";
 const App = () => {
   return (
     <div>
-      <h1>"Adopt me!"</h1>
+      <h1>Adopt me!</h1>
       <Pet animal="Dog" name="Luna" breed="Havanese" />
       <Pet animal="Parrot" name="Pepper" breed="Cockatiel" />
       <Pet animal="Cat" name="Doink" breed="Mixed" />

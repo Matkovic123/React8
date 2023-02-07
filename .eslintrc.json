@@ -4,6 +4,7 @@
     "plugin:import/errors", // lines 4-6 ensure lint does not complain about valid react syntax
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
+    "plugin:react-hooks/recommended",
     "prettier" // make sure to keep in last place
   ],
   "rules": {

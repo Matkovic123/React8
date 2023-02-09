@@ -5,7 +5,7 @@ import fetchPet from "./fetchPet";
 const Details = () => {
   const { id } = useParams();
   // "details" is an arbitrary caching keyvnjm,cf
-  // if query cache is empty, call fetchPet as last param
+  // if query cache is empty, call fetchPeet as last param
   // you can't await this rending function
   const results = useQuery(["details", id], fetchPet);
   if (results.isLoading) {

@@ -17,6 +17,7 @@ class Carousel extends Component {
   };
 
   render() {
+    // throw new Error("lol error");  // -> for testing error boundary
     //class components & hooks dont mix
     const { active } = this.state;
     const { images } = this.props;
